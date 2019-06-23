@@ -9,7 +9,7 @@
 
     <title>@yield('title') | {{ config('app.name') }}</title>
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app_purple.css') }}" rel="stylesheet">
     <link href="{{ asset('css/open-iconic-bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/tempusdominus-bootstrap-4.css') }}" rel="stylesheet">
     <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">

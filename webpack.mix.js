@@ -29,4 +29,6 @@ mix.js('resources/assets/js/app.js', 'public/js')
     .sass('node_modules/open-iconic/font/css/open-iconic-bootstrap.scss', 'public/css')
     .sass('node_modules/font-awesome/scss/font-awesome.scss', 'public/css')
     .copy('node_modules/font-awesome/fonts', 'public/fonts')
-    .copy('node_modules/tempusdominus-bootstrap-4/build/css/tempusdominus-bootstrap-4.css', 'public/css');
+    .copy('node_modules/tempusdominus-bootstrap-4/build/css/tempusdominus-bootstrap-4.css', 'public/css')
+    .sass('resources/assets/sass/app_purple.scss', 'public/css').options({processCssUrls: false});
+
