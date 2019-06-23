@@ -1,4 +1,4 @@
-<footer class="footer bg-dark">
+<footer class="footer">
     <div class="container">
         <span class="text-muted">
             <a href="https://github.com/zeropingheroes/lanager" target="_blank">
