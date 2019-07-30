@@ -1,7 +1,13 @@
+<div class="header-social-icons">
+    <ul class="social-icons">
+        <li><a href="" class="social-icon"> <i class="fa fa-facebook fa-lg"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-twitter fa-lg"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-flickr fa-lg"></i></a></li>
+    </ul>
+</div>
 <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="{{ url('/') }}">
-        <img src="/img/brand.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        {{ config('app.name') }}
+        <img src="/img/brand.png" class="d-inline-block align-top" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="@lang('phrase.toggle-navigation')">

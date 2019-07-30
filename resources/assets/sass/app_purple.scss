@@ -20,13 +20,51 @@ body {
 }
 
 .navbar {
-  min-height: 100px;
+  min-height: 70px;
   border-color: $secondary;
   box-shadow: 0 0 3px $secondary;
   background-color: $gray-700;
-  margin: 50px 30px 0 30px;
+  margin: 20px 30px 0 30px;
   padding-top: 0; /* reduce navbar height */
   padding-bottom: 0; /* reduce navbar height */
+}
+
+.navbar .navbar-brand .a{
+  width: 100%;
+}
+
+.header-social-icons {
+  width: 100%;
+  text-align: right;
+  padding-right: 35px;
+}
+.social-icon {
+  color: #fff;
+}
+ul.social-icons {
+  margin-top: 20px;
+}
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
+  margin-left: 20px;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-facebook:hover {
+  color: #3d5b99;
+}
+.fa-twitter:hover {
+  color: #00aced;
+}
+.fa-flickr:hover {
+  background: -webkit-linear-gradient(left, #0063dc 50%, #ff0084 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #admin-menu {
